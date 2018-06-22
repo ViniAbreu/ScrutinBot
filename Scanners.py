@@ -89,7 +89,7 @@ class Scans:
                     else:
                         return "<b>Scrutin - Scanner : SQL</b>\n\n<b>[+] Url_Target : </b> {}\n\n<b>[!] Error :</b> <code>The url does not contain parameters for injection of payloads</code>".format(self.targetS[1])
                 except:
-                    return '<b>Scrutin - Scanner : SQL</b>\n\n<b>[+] Url_Target : </b> {}\n<b>[!] Error : </b> <code>I could not find a fault</code>'.format(self.targetS[1])
+                    return '<b>Scrutin - Scanner : SQL</b>\n\n<b>[+] Url_Target : </b> {}\n<b>[!] Error : </b> <code>Not found</code>'.format(self.targetS[1])
         except:
             return "<b>Scrutin - Scanner : SQL</b>\n\n<b>[!] Error : </b> <code>Could not access payload list</code>"
     
@@ -108,12 +108,13 @@ class Scans:
 
                                 if payload in html:
                                     return "*Scrutin - Scanner : XSS*\n\n*[+] Url_Target : *{}\n*[+] Payload : *`{}`\n*[+] Server : *`{}`\n*[+] Technology : *`{}`\n*[+] Content-Type : *`{}`\n*[+] Content-Encoding : *`{}`\n*[+] HTTP Method : * `GET`".format(self.targetS[1],payload,server['server'],server['technology'],req.headers['Content-Type'],req.headers['Content-Encoding'])
+                                return "*Scrutin - Scanner : XSS*\n\n*[+] Url_Target : * {}\n*[!] Error :*  `Not found`".format(self.targetS[1])
                             else:
                                 return "*Scrutin - Scanner : XSS*\n\n*[+] Url_Target : * {}\n*[!] Error :*  `This site has been blocked for scanning`".format(self.targetS[1])
                         else:
                             return "*Scrutin - Scanner : XSS*\n\n*[+] Url_Target : * {}\n\n*[!] Error :* `The url does not contain parameters for injection of payloads`".format(self.targetS[1])
                     except:
-                        return "*Scrutin - Scanner : XSS*\n\n*[+] Url_Target : * {}\n*[!] Error :*  `I could not find a fault`".format(self.targetS[1])                      
+                        return "*Scrutin - Scanner : XSS*\n\n*[+] Url_Target : * {}\n*[!] Error :*  `Problems connecting to the website`".format(self.targetS[1])                      
         except:
             return "*Scrutin - Scanner : XSS*\n\n*[!] Error : * `Could not access payload list`"
     
@@ -133,12 +134,13 @@ class Scans:
 
                                 if "root:x:0:0:root:/root:/bin/bash" in html:
                                     return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[+] Url_Target : </b>{}\n<b>[+] Payload : </b><code>{}</code>\n<b>[+] Server : </b><code>{}</code>\n<b>[+] Technology : </b><code>{}</code>\n<b>[+] Content-Type : </b><code>{}</code>\n<b>[+] HTTP Method : </b> <code>GET</code>".format(self.targetS[1],bypass+payload,server['server'],server['technology'],req.headers['Content-Type'])
+                                return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[+] Url_Target : </b> {}\n\n<b>[!] Error : </b> <code>Not found</code>".format(self.targetS[1])
                             else:
                                 return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[+] Url_Target : </b> {}\n\n<b>[!] Error :</b>  <code>This site has been blocked for scanningI</code>".format(self.targetS[1])
                         else:
                             return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[+] Url_Target : </b> {}\n\n<b>[!] Error :</b> <code>The url does not contain parameters for injection of payloads</code>".format(self.targetS[1])
                     except:
-                        return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[!] Error : </b> <code>I could not find a fault</code>"
+                        return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[+] Url_Target : </b> {}\n\n<b>[!] Error : </b> <code>Problems connecting to the website</code>".format(self.targetS[1])
         except:
             return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[!] Error : </b> <code>Could not access payload list</code>"
 
