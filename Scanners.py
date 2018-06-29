@@ -30,7 +30,7 @@ def randomAgent():
 
 def valid_url(url):
     if("http://" not in url and "https://" not in url):
-        return f"http://{url}"
+        return "http://{}".format(url)
     return url
 
 def filter_sites(url):
