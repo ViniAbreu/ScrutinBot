@@ -5,7 +5,6 @@ from random import choice
 import socket
 import re
 import os
-import shutil
 import time
 
 from requests import get
@@ -144,5 +143,3 @@ class Scans:
                         return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[+] Url_Target : </b> {}\n\n<b>[!] Error : </b> <code>Problems connecting to the website</code>".format(self.targetS[1])
         except:
             return "<b>Scrutin - Scanner : LFI</b>\n\n<b>[!] Error : </b> <code>Could not access payload list</code>"
-
-print(Scans({'text':'/sql http://testfire.net/search.aspx?txtSearch=x'}).XSS())

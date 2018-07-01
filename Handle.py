@@ -55,13 +55,13 @@ class user_commands:
 		text_help = '''
 			   *Scrutin - Commands *
 
-*/sql * - `Start the SQL Injection scanner to look for crashes \n
-*/xss * - `Start the XSS scanner to check for glitches \n
-*/lfi * - `Start the LFI scanner to check for glitches \n
-*/bing * - `Crawlea links no bing from the provided dork` \n
-*/dork * - `Automatically generate dorks from supplied keywords` \n
-*/encrypt * - `Encrypt user-supplied strings` \n
-*/decrypt * - `` Describe string strings by user \n
+*/sql* - `Start the SQL Injection scanner to look for crashes`\n
+*/xss* - `Start the XSS scanner to check for glitches`\n
+*/lfi* - `Start the LFI scanner to check for glitches`\n
+*/bing* - `Crawlea links no bing from the provided dork`\n
+*/dork* - `Automatically generate dorks from supplied keywords`\n
+*/encrypt* - `Encrypt user-supplied strings`\n
+*/decrypt* - `Describe string strings by user`\n
 
 *If you still have difficulty executing type:* `/help /name_cmd` 
 			   '''
@@ -76,13 +76,14 @@ class user_commands:
 			'/decrypt': "*The command* `/decrypt` *command requires that an encryption algorithm and the encrypted encryption be passed.*\n\n*Example:* `/decrypt b64 U2NydXRpbkJvdA==` \n\n *This command would return the cipher \"U2NydXRpbkJvdA==\" decrypted in Base64.*"
 		}
 
-		if len(self.msg_s) > 1:
+		if not len(self.msg_s) > 1:
+			self.bot.sendMessage(self.chat_id,text_help,parse_mode="Markdown",reply_to_message_id=self.msg_id)
+		else:
 			try:
 				self.bot.sendMessage(self.chat_id,help_plus[self.msg_s[1]],parse_mode="Markdown",reply_to_message_id=self.msg_id)
 			except:
 				self.bot.sendMessage(self.chat_id,"*Scrutin - Help Users*\n*Syntax command* : `/help /name_cmd`\n*Example:* `/help /bing`",parse_mode="Markdown",reply_to_message_id=self.msg_id)
-		else:
-			self.bot.sendMessage(self.chat_id,text_help,parse_mode="Markdown",reply_to_message_id=self.msg_id)
+			
 	def sqli(self):
 		if len(self.msg_s) > 1:
 			self.bot.sendMessage(self.chat_id,self.scan.sql_injection(),
